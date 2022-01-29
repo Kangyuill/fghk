@@ -58,7 +58,7 @@ print(type(True))  #bool형이다.
 ## mission>> 내가 좋아하는 게임의 캐릭터 혹은 재밋게 본 책의 정보를
 ## 변수로 저장하고 출력해보자.
 ## 예시) LOL 챔피언 정보: https://lol.inven.co.kr/dataninfo/champion/
-
+'''
 name="강유일"
 age=14
 school="수락중학교"
@@ -67,6 +67,7 @@ game="Lol"
 print(f"{name}은 {age}살이고 학교는{school}에 다니고 {game}이라는 게임을 좋아한다 ")
 
 print("%s는 %d살이고 학교는%s에 다니고 %s이라는 게임을 좋아한다"%(name,age,school,game))
-
+'''
 
 ## 변수 Mission: input()응용하기, 속으로 10초를 세어 맞히는 프로그램
+
