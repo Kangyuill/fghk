@@ -82,9 +82,9 @@ while True:
     else:
         print("Up!!!")
 '''
-
+''' 
 radius = int(input("반지름을 입력하세요: "))
 area = 3.14 * radius * radius
 around = 2 * 3.14 * radius
 print(f"반지름은 {area} 이고 넓이는 {around} 이다")
-
+'''
