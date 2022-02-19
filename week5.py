@@ -180,11 +180,55 @@ print(pull_up)
 ##리스트 추가 미션1
 
 
-
+'''
 menu = ["햄버거","치킨","피자"]
 a = int(input("주문할 메뉴를 말하세요: "))
 if a== "햄버거" :
     print(5000)
-
+'''
 
 ##리스트 추가 미션2
+
+
+
+
+
+
+
+
+'''
+x=10
+y=20
+z=x
+x=y
+y=z
+print(x,y)
+'''
+
+'''
+cham = int(input("참석자의 수을 입력하세요: "))
+print(1*cham)
+print(2*cham)
+print(4*cham)
+'''
+
+
+a = int(input("시작의 숫자를 입력하세요.: "))
+b = int(input("끝나는 숫자를 입력하세요.: "))
+sum = 0
+for x in range (a,b+1):
+    if x % 2 != 0 :
+        sum = sum + x
+print(sum)
+
+
+
+
+
+
+
+
+
+
+
+
